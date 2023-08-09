@@ -62,7 +62,7 @@ public class Utente {
 	
 	
 	public void welcome() {
-		System.out.println("Benvenuto in FuckBank!\nSeleziona dal menù:\n\t1. Registrati\n\t2. Login\n\t3. Esci");
+		System.out.println("Benvenuto in FunkBank!\nSeleziona dal menù:\n\t1. Registrati\n\t2. Login\n\t3. Esci");
 		System.out.print("\nSelezione: ");
 	}
 
