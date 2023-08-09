@@ -64,17 +64,17 @@ public class Main {
 					
 				case 3:
 					utente.logout();
-						System.out.print("Vuoi effettuare un'altra operazione? Y/N ");
-						String choice = input.next();
-						if(choice.equalsIgnoreCase("Y")) {
-							
-						} else if(choice.equalsIgnoreCase("N")) {
-							System.out.println("Gazie e arrivederci!");
-							logged = true;
-							
-						} else {
-							System.out.println("Scelta errata.");
-						}
+					System.out.print("Vuoi effettuare un'altra operazione? Y/N ");
+					String choice = input.next();
+					if(choice.equalsIgnoreCase("Y")) {
+						
+					} else if(choice.equalsIgnoreCase("N")) {
+						System.out.println("Gazie e arrivederci!");
+						logged = true;
+						
+					} else {
+						System.out.println("Scelta errata.");
+					}
 						
 				default:
 					System.out.println("Scelta errata! Riprova.");
